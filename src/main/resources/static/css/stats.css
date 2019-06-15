@@ -1,0 +1,67 @@
+body {
+	background: #a5dad2;
+}
+
+#container-statistics {
+	display: flex;
+    justify-content: center;
+}
+
+#tabla-estadisticas {
+	font-family: lucida sans unicode,lucida grande,Sans-Serif;
+    font-size: 12px;
+    width: 630px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #69c;
+    margin-top: 2px;
+    background: #f5f5f5;
+    -webkit-box-shadow: 0px 10px 19px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 19px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 19px -5px rgba(0,0,0,0.75);
+}
+
+#tabla-estadisticas tr {
+	border-bottom: 1px solid #ddd;
+}
+
+#tabla-estadisticas tr:hover {
+	background: #21aff352;
+}
+
+#tabla-estadisticas thead tr {
+	background: #2b45ff47;
+}
+
+#tabla-estadisticas tr:nth-child(even) {
+	background: #2196f330;
+}
+
+#tabla-estadisticas tr:nth-child(even):hover {
+	background: #21aff352;
+}
+
+#tabla-estadisticas tr:last-child {
+	border-bottom: none;
+}
+
+#tabla-estadisticas th {
+	font-weight: 400;
+    font-size: 14px;
+    color: #039;
+    border-bottom: 1px dashed #69c;
+    padding: 12px 17px;
+}
+
+#tabla-estadisticas td {
+	color: #669;
+    padding: 7px 17px;
+}
+
+#titulo {
+	display: flex;
+	justify-content: center;
+	font-family: lucida sans unicode,lucida grande,Sans-Serif;
+    font-size: 24px;
+    color: #3a3434;
+}
