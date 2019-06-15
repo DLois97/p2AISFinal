@@ -6,7 +6,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import es.codeurjc.ais.tictactoe.service.StatisticsService;
+//import es.codeurjc.ais.tictactoe.service.StatisticsService;
 
 public class TicTacToeGame {
 	

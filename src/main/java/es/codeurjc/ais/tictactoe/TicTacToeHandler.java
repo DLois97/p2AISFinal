@@ -15,12 +15,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import es.codeurjc.ais.tictactoe.TicTacToeGame.Event;
 import es.codeurjc.ais.tictactoe.TicTacToeGame.EventType;
-import es.codeurjc.ais.tictactoe.service.StatisticsService;
+//import es.codeurjc.ais.tictactoe.service.StatisticsService;
 
 //This class is a component. It can autowire any other component using @Autowired annotation 
 public class TicTacToeHandler extends TextWebSocketHandler {
-	@Autowired
-	private StatisticsService statisticsService;
+//	@Autowired
+//	private StatisticsService statisticsService;
 	enum ClientToServerAction {
 		JOIN_GAME, MARK, RESTART
 	}
@@ -109,7 +109,7 @@ public class TicTacToeHandler extends TextWebSocketHandler {
 
 			case MARK:
 				if (game.checkTurn(msg.data.playerId)) {
-					game.mark(msg.data.cellId,statisticsService);
+					game.mark(msg.data.cellId/*,statisticsService*/);
 				}
 				break;
 
