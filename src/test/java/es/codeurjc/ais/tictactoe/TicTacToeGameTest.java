@@ -117,10 +117,6 @@ public class TicTacToeGameTest {
 		assertEquals(null,event2);
 //		assertEquals(null,event);
 	}
-	private void clearMocks(Connection c1, Connection c2) {
-		reset(c1);
-		reset(c2);
-	}
 	
 }
 
