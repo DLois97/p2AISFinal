@@ -17,7 +17,7 @@ public class Apptest {
 	
 	@BeforeClass
 	public static void setupClass() {
-	System.setProperty("webdriver.gecko.driver", "/absolute/path/to/geckodriver");
+	System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver");
 	WebApp.start();
 	}
 	
