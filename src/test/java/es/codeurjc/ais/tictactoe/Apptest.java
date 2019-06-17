@@ -62,7 +62,7 @@ public class Apptest {
 		navegador1.switchTo().alert().getText();
 		//assertThat("Javi wins! Dani looses.").isEqualTo(navegador1.switchTo().alert().getText());
 		assertEquals("Javi wins! Dani looses.",navegador1.switchTo().alert().getText());
-		WebApp.stop();
+		
 	}
 	
 	@Test
